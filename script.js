@@ -4,13 +4,11 @@ window.onscroll = function () { scrollFunction() };
 function scrollFunction() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         
-        // topButton.style.display = "block";
-        topButton.style.opacity = 0.9;
+        topButton.style.opacity = 0.85;
 
     }
         else {
-            //topButton.style.display = "none";
-        topButton.style.opacity = 0.1;
+        topButton.style.opacity = 0.0;
     }
 }
 function topFunc() {

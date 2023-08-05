@@ -29,8 +29,7 @@ list-style-type: none;
 
 border-radius: 2px;
 /*
-    padding: 5px;
-    margin: 10px;
+    position: fixed;
 */
 }
 
@@ -76,9 +75,6 @@ border-radius: 2px;
     font-size: 64px;
     position: relative;
     letter-spacing: 5px;
-    /*
-        margin-top:40px;
-    */
     top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
@@ -94,10 +90,6 @@ border-radius: 2px;
 
 
 .mid-sec {
-    /*
-        margin: 50px 50px 50px 50px;
-        border: 2px solid black;
-    */
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -185,7 +177,9 @@ border-radius: 2px;
     font-size: 10px;
     color: black;
     width: 40px;
+    transition: opacity .75s;
 }
+
 .resume-button {
     color: black;
     text-decoration: none;
@@ -214,9 +208,9 @@ border-radius: 2px;
 .title-exp {
     margin: 0px;
     font-size: 20px;
-    font-weight: bold;
-    color: darkgoldenrod;
-    letter-spacing: 1px;
+
+    color: black;
+    
 }
 .p-exp {
     width: 500px;
@@ -313,9 +307,15 @@ border-radius: 2px;
     align-items: center;
 }
 
+
 .socials-img {
     width: 30px;
     height: 30px;
+    transition: opacity 1s;
+}
+
+.socials-img:hover{
+    opacity: 0.8    ;
 }
 
 .socials-button{
