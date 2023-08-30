@@ -16,3 +16,14 @@ function topFunc() {
     document.documentElement.scrollTop = 0;
 }
 
+let buttons = document.getElementsByClassName("socials");
+let windows = document.getElementById("pokeproject");
+windows.addEventListener("mouseover", () => {
+    buttons[0].style.opacity = 1.0;
+    buttons[1].style.opacity = 1.0;
+});
+
+windows.addEventListener("mouseout", () => {
+    buttons[0].style.opacity = 0.0;
+    buttons[1].style.opacity = 0.0;
+});
