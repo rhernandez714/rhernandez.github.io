@@ -63,10 +63,13 @@ border-radius: 2px;
 .mid-banner {
     background-color: #A0A4B8;
     height: 500px;
+    /*
+    height: 500px;
+    */
+
     margin-left: auto;
     color: black;
-
-    margin:  30px 100px 30px 100px;
+    margin: 30px 100px 30px 100px;
 }
 
 #mid-text {
@@ -129,6 +132,9 @@ border-radius: 2px;
     width: 400px;
     color: black;
     opacity: 85%;
+    line-height: 1.5;
+    color: black;
+    
 }
 
 #img-me img{
@@ -238,6 +244,7 @@ border-radius: 2px;
     width: 500px;
     font-size: 15px;    
     margin: 0px 0px 55px 55px ;
+    line-height: 2;
 }
 
 .top-block {
@@ -303,6 +310,7 @@ border-radius: 2px;
 #bout-me{
     background-color: white;
     display: flex;
+    justify-content: center;
 }
 
 #proj{
@@ -311,7 +319,7 @@ border-radius: 2px;
 
 
 #contact {
-    scroll-behavior: smooth;
+    scroll-l-behavior: smooth;
 }
 
 #header-format{
@@ -319,7 +327,7 @@ border-radius: 2px;
 }
 #right-header {
     width: 50%;
-    justify-content: right;
+    justify-content: center;
     display: flex;
 }
 #left-header {
@@ -358,9 +366,7 @@ border-radius: 2px;
 html{
     scroll-behavior: smooth;
 }
-.l-half{
-    width: 50%;
-}
+
 .r-half{
     width: 50%;
     display: flex;
@@ -402,4 +408,29 @@ html{
 
 .toptitle{
     margin: 15px;
+}
+
+.arrow-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.arrow-down{
+    height: 40px;
+    width: 40px;
+    transition-duration: 0.5s;
+}
+
+.arrow-down:hover{
+    opacity: 0.5;
+}
+
+#arrow2 {
+    background-color: white;
+}
+
+#arrow3 {
+    background-color: #A0A4B8;
 }
